@@ -8,9 +8,9 @@ def guesser():
         age = random.randint(15,40)
         user = input(f"Are you {age} years old? (y/n)\n")
         if user == "n":
-            print("Rats!")
+            print("\nRats!\n")
         else:
-            print(f"{user} is {age} years old")
+            print(f"\n{name} is {age} years old")
             guess = True
     
 guesser()
