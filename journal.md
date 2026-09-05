@@ -6,3 +6,9 @@ Finally figured out why my remote repo wouldn't let me push.  I was confused bec
 
 
 ###############################################
+
+Date 9/5/2026 | Subject: Making files in CMD
+
+I found out that I'm not able to use touch in cmd, its a command specifically for wsl. Instead of making files the long way-- using file explorer-- I decided to look up an alternative. I learned that you can use "type nul > filename" instead of touch to make files-- which helped me out with the flask assignment!
+
+###############################################
